@@ -1,7 +1,7 @@
 ; 10 = \n = 0x0a = ah = 10h y 13 = \r = 0xd = dh = 13h
 ; centinela = '$' == ; para terminar la declaracion hasta donde se lee
 ; en linux no usamos sentinelas, usamos edx numero bytes a imprimir
-
+ 
 section .data ; sección de datos
 ;msg db "Hola Mundo", 0xa, 0xd, '$' ;msg para guardar el hola mundo pero puede ser cualquier nombre
 msg db "Hola Mundo", 0xa, 0xd
